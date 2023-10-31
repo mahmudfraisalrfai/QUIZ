@@ -1,0 +1,84 @@
+[
+{
+    "question":"What does the abbreviation CSS stand for?",
+    "answer-1":"Cascading Style Sheet",
+    "answer-2":"Computer Style System",
+    "answer-3":"Creative Style Selector",
+    "answer-4":"Colorful Style Syntax",
+    "answer":"Cascading Style Sheet"
+},
+{
+    "question":"Which property is used to change the background color of an HTML element?",
+    "answer-1":"text-color",
+    "answer-2":"background-color",
+    "answer-3":"color",
+    "answer-4":"font-color",
+    "answer":"background-color"
+},
+{
+    "question":"How do you select an HTML element using an ID in CSS?",
+    "answer-1":"#element { ... }",
+    "answer-2":".element { ... }",
+    "answer-3":"element { ... }",
+    "answer-4":"ID: element { ... }",
+    "answer":"#element { ... }"
+},
+{
+    "question":"Which property is used to change the font size in CSS?",
+    "answer-1":"text-size",
+    "answer-2":"font-size",
+    "answer-3":"text-height",
+    "answer-4":"font-height",
+    "answer":"font-size"
+},
+{
+    "question":"What is the CSS abbreviation for specifying an element's margins?",
+    "answer-1":"margin",
+    "answer-2":"padding",
+    "answer-3":"spacing",
+    "answer-4":"border",
+    "answer":"margin"
+},
+{
+    "question":"How can you place text next to an element in CSS?",
+    "answer-1":"float: right;",
+    "answer-2":"display: block;",
+    "answer-3":"text-align: center;",
+    "answer-4":"position: relative;",
+    "answer":"display: block;"
+},
+{
+    "question":"Which property is used to set the width of an HTML element?",
+    "answer-1":"width",
+    "answer-2":"height",
+    "answer-3":"size",
+    "answer-4":"dimension",
+    "answer":"width"
+},
+{
+    "question":"What is the common unit for measuring size in CSS?",
+    "answer-1":"EM",
+    "answer-2":"PT",
+    "answer-3":"PX",
+    "answer-4":"IN",
+    "answer":"PX"
+},
+{
+    "question":"Which property allows you to repeat a background image on an HTML element?",
+    "answer-1":"repeat-image",
+    "answer-2":"background-repeat",
+    "answer-3":"image-repeat",
+    "answer-4":"repeat-bg-image",
+    "answer":"background-repeat"
+},
+{
+    "question":"How can you change the color of specific text when hovering over it using CSS?",
+    "answer-1":":hover { color: red; }",
+    "answer-2":":active { text-color: blue; }",
+    "answer-3":":selected { font-color: green; }",
+    "answer-4":":focus { text-color: purple; }",
+    "answer":":hover { color: red; }"
+}
+]
+
+

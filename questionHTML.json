@@ -1,0 +1,82 @@
+[
+    {
+        "question":"What does HTML stand for?",
+        "answer-1":"Hyper Text Markup Language",
+        "answer-2":"High Tech Multimedia Language",
+        "answer-3":"Hyper Transfer Markup Language",
+        "answer-4":"Home Tool Markup Language",
+        "answer":"Hyper Text Markup Language"
+    },
+    {
+        "question":" Which HTML tag is used for creating a hyperlink?",
+        "answer-1":"<link>",
+        "answer-2":"<a>",
+        "answer-3":"<hlink>",
+        "answer-4":"<hyper>",
+        "answer":"<a>"
+    },
+    {
+        "question":"Which HTML element is used to define the structure of an HTML document?",
+        "answer-1":"<body>",
+        "answer-2":"<head>",
+        "answer-3":"<html>",
+        "answer-4":"<structure>",
+        "answer":"<html>"
+    },
+    {
+        "question":"What does the <img> tag stand for in HTML?",
+        "answer-1":"Image",
+        "answer-2":"Insert",
+        "answer-3":"Inline",
+        "answer-4":"Input",
+        "answer":"Image"
+    },
+    {
+        "question":"Which HTML tag is used for creating an unordered list?",
+        "answer-1":"<list>",
+        "answer-2":"<ul>",
+        "answer-3":"<ol>",
+        "answer-4":"<li>",
+        "answer":"<ul>"
+    },
+    {
+        "question":" Which HTML tag is used for creating a line break?",
+        "answer-1":"<br>",
+        "answer-2":"<lb>",
+        "answer-3":"<linebreak>",
+        "answer-4":"<newline>",
+        "answer":"<br>"
+    },
+    {
+        "question":"In HTML, which tag is used to define the structure of a table?",
+        "answer-1":"<row>",
+        "answer-2":"<table>",
+        "answer-3":"<grid>",
+        "answer-4":"<struct>",
+        "answer":"<table>"
+    },
+    {
+        "question":"What is the purpose of the <meta> tag in HTML?",
+        "answer-1":"To create metadata for search engines",
+        "answer-2":"To define a paragraph",
+        "answer-3":"InlTo display imagesine",
+        "answer-4":"To insert JavaScript code",
+        "answer":"To create metadata for search engines"
+    },
+    {
+        "question":"Which HTML tag is used for defining the largest heading?",
+        "answer-1":"<heading1>",
+        "answer-2":"<h1>",
+        "answer-3":"<header>",
+        "answer-4":"<big>",
+        "answer":"<h1>"
+    },
+    {
+        "question":"What does CSS stand for in the context of web development?",
+        "answer-1":"Computer System Styles",
+        "answer-2":"Cascading Style Sheets",
+        "answer-3":"Colorful Style Selection",
+        "answer-4":"Code Structure and Syntax",
+        "answer":"Cascading Style Sheets"
+    }
+]

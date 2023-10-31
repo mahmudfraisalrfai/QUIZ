@@ -1,0 +1,139 @@
+:root{
+--main-color:#0075ffb0
+}
+*{box-sizing: border-box;}
+.container{padding: 30px 30px;
+background-color: var(--main-color);
+display: none;
+}
+section{
+text-align: center;
+padding: 30px 30px;
+background-color: var(--main-color);
+margin-bottom: 20px;padding: 30px 30px;
+}
+
+section button{
+    padding: 7px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+header span{font-weight: bold;
+font-size: 20px;
+}
+.data-question{
+    background-color: white;
+    padding: 20px;
+    margin:10px 0 0 0;
+    font-size: 20px;
+}
+.question{
+    font-weight: bold;
+
+}
+.data-question .answers{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.data-question .answer label{
+    cursor: pointer;
+    
+}
+
+.data-question .answer  input:checked + label {
+    color: var(--main-color)
+}
+
+.data-question .answer input[type="radio"]:checked {
+    background-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.data-question  button{
+    margin: 44px 0 29px;
+    padding: 6px 20px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    width: 35%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.data-timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+
+}
+.col{    display: flex;
+    gap: 10px;}
+.col span{    width: 30px;
+    border: 2px solid #ccc;
+    height: 30px;
+    border-radius: 50%;
+    }
+    .col .talwen{background-color: var(--main-color);}
+.data-timer .timer{    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 4px solid var(--main-color);
+    border-radius: 6px;
+}
+.Popup{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    margin: 30px auto;
+    display: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    line-height: 7;
+    text-align: center;
+}
+.Popup p{
+    display: none;
+}
+@media (max-width:900px){
+    .data-timer .timer {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 7px 7px;
+        border: 4px solid var(--main-color);
+        border-radius: 6px;
+        margin-left: 10px;
+    }
+    .col span {
+        width: 15px;
+        height: 15px;
+    }
+    .constainer {
+        padding: 15px 15px;
+    }
+    .data-question button {
+        width: 75%;
+    }
+    .Popup{
+        font-size: 23px;
+    }
+}
